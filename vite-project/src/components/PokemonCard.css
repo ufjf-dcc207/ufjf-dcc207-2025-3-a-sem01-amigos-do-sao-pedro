@@ -1,0 +1,39 @@
+/* Em src/components/PokemonCard.css */
+.pokemon-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.pokemon-imagem {
+  width: 120px;
+  height: 120px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+}
+.pokemon-numero {
+  color: #999;
+  font-size: 0.9em;
+}
+.pokemon-nome {
+  margin: 8px 0;
+}
+.pokemon-tipos {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.pokemon-tipos .tipo {
+  padding: 4px 12px;
+  border-radius: 12px;
+  color: white;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+/* Bônus para estilização (não obrigatório, mas legal) */
+.tipo.grass { background-color: #78C850; }
+.tipo.poison { background-color: #A040A0; }
+.tipo.fire { background-color: #F08030; }
+.tipo.water { background-color: #6890F0; }
+.tipo.electric { background-color: #F8D030; }
