@@ -31,6 +31,5 @@ export const pokemons: Pokemon[] = [
         iconUrl: 'https://img.pokemondb.net/sprites/black-white/anim/normal/mewtwo.gif',
         numero: '#150',
         tipos: ['Psíquico']
-    },
-
+    }
 ]

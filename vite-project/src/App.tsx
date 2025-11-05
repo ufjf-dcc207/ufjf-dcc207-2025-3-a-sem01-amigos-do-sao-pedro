@@ -1,13 +1,23 @@
-import './App.css'
+import './App.css';
+import { Pokedex } from './components/Pokedex';
 
-function App() {
-
+function Header() {
   return (
-    <>
-      <div>
-      </div>
-    </>
-  )
+    <header className="app-header">
+      <h1>Pokedex</h1>
+    </header>
+  );
 }
 
-export default App
+function App() {
+  return (
+    <div className="app">
+      <Header />
+      <main>
+        <Pokedex />
+      </main>
+    </div>
+  );
+}
+
+export default App;
