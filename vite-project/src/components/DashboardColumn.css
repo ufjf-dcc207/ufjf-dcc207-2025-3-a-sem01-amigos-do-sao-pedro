@@ -1,0 +1,31 @@
+.dashboard-column {
+  padding: 10px;
+  height: 100%;
+}
+
+.column-titulo {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 8px 8px 0 0;
+  text-align: center;
+  margin: 0;
+}
+
+.pc {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+  padding: 10px;
+  background-color: #444;
+  border: 4px solid #333; 
+}
+
+.time {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border: 4px solid #333;
+}
